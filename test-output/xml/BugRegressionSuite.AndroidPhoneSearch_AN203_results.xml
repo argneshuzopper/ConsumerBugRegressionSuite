@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AndroidPhoneSearch_AN203"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.329">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="20.329" classname="BugRegressionSuite.AndroidPhoneSearch_AN203" />
+      
+</testsuite>

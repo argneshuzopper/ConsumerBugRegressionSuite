@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BugRegression-suite">
+              <span class="suite-name border-failed">BugRegression-suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BugRegression-suite">
+                    <span>D:\Zopper\ConsumerAppBugRegression\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BugRegression-suite">
+                    <span class="test-stats">29 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BugRegression-suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BugRegression-suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BugRegression-suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BugRegression-suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BugRegression-suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 1 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BugRegression-suite" class="hide-methods failed suite-BugRegression-suite"> (hide)</a> <!-- hide-methods failed suite-BugRegression-suite -->
+                      <a href="#" panel-name="suite-BugRegression-suite" class="show-methods failed suite-BugRegression-suite"> (show)</a> <!-- show-methods failed suite-BugRegression-suite -->
+                    </span>
+                    <div class="method-list-content failed suite-BugRegression-suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.UniqueCouponMultipleTime_SNo_39" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BugRegression-suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BugRegression-suite" class="hide-methods passed suite-BugRegression-suite"> (hide)</a> <!-- hide-methods passed suite-BugRegression-suite -->
+                      <a href="#" panel-name="suite-BugRegression-suite" class="show-methods passed suite-BugRegression-suite"> (show)</a> <!-- show-methods passed suite-BugRegression-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BugRegression-suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ApplicationCrashIssue" hash-for-method="appCrashDuringReviewLogin">appCrashDuringReviewLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AN_180" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AN_184" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AndroidPhoneSearch_AN203" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.CallingTablet_AN197" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.CartConnectionError_SNo_25" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ForgotPassword_Sno_36" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ForgotPasswordScreen_SNo_26" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.LoginErrorMessage_AN190" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.UserNameTapping_SNo_32" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SignInWithGoogle_SNo_30" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AN_186" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ShoppingCartProductDelete" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.CheckoutErrorOnCart" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.CouponPromptIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SortingIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ReviewWithSpecialCharacters" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SimilarProductsIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.PlacedOrderIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SubmitReview" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ProductConnectionIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.CheckoutErrorOnCart" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.OverflowOptionIsMissing" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.ApplicationCrashIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AddressPageValidationIssue" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38" hash-for-method="executeTestCase">executeTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SimilarProductsIssue" hash-for-method="similarEurekaProductIssue">similarEurekaProductIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BugRegression-suite" title="BugRegressionSuite.SimilarProductsIssue" hash-for-method="similarProductSamsungIssue">similarProductSamsungIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BugRegression-suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BugRegression-suite" class="panel BugRegression-suite">
+          <div class="suite-BugRegression-suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BugRegressionSuite.UniqueCouponMultipleTime_SNo_39</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Sorry, This coupon code is not valid] but found [Have other coupon? Reapply to avail the offer]
+	at BugRegressionSuite.UniqueCouponMultipleTime_SNo_39.executeTestCase(Unknown Source)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-failed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ForgotPassword_Sno_36</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.PlacedOrderIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.SortingIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.OverflowOptionIsMissing</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ForgotPasswordScreen_SNo_26</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.SignInWithGoogle_SNo_30</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.SubmitReview</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AN_184</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.SimilarProductsIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="similarEurekaProductIssue">
+                  </a> <!-- similarEurekaProductIssue -->
+                  <span class="method-name">similarEurekaProductIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="similarProductSamsungIssue">
+                  </a> <!-- similarProductSamsungIssue -->
+                  <span class="method-name">similarProductSamsungIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.LoginErrorMessage_AN190</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ProductConnectionIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ReviewWithSpecialCharacters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.UserNameTapping_SNo_32</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AddressPageValidationIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AndroidPhoneSearch_AN203</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AN_186</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ShoppingCartProductDelete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.CouponPromptIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.AN_180</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.CartConnectionError_SNo_25</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.ApplicationCrashIssue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appCrashDuringReviewLogin">
+                  </a> <!-- appCrashDuringReviewLogin -->
+                  <span class="method-name">appCrashDuringReviewLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.CheckoutErrorOnCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+          <div class="suite-BugRegression-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BugRegressionSuite.CallingTablet_AN197</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="executeTestCase">
+                  </a> <!-- executeTestCase -->
+                  <span class="method-name">executeTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BugRegression-suite-class-passed -->
+        </div> <!-- panel BugRegression-suite -->
+        <div panel-name="test-xml-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Zopper\ConsumerAppBugRegression\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BugRegression-suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;AN_180&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AN_180&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AN_180 --&gt;
+  &lt;test name=&quot;AN_184&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AN_184&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AN_184 --&gt;
+  &lt;test name=&quot;AndroidPhoneSearch_AN203&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AndroidPhoneSearch_AN203&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AndroidPhoneSearch_AN203 --&gt;
+  &lt;test name=&quot;CallingTablet_AN197&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.CallingTablet_AN197&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CallingTablet_AN197 --&gt;
+  &lt;test name=&quot;CartConnectionError_SNo_25&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.CartConnectionError_SNo_25&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CartConnectionError_SNo_25 --&gt;
+  &lt;test name=&quot;EmailId_LableOnForgotPassword_SNo_27&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmailId_LableOnForgotPassword_SNo_27 --&gt;
+  &lt;test name=&quot;ForgotPassword_Sno_36&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ForgotPassword_Sno_36&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ForgotPassword_Sno_36 --&gt;
+  &lt;test name=&quot;ForgotPasswordScreen_SNo_26&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ForgotPasswordScreen_SNo_26&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ForgotPasswordScreen_SNo_26 --&gt;
+  &lt;test name=&quot;LocationShownOnDrawerScreen_Sno_35&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LocationShownOnDrawerScreen_Sno_35 --&gt;
+  &lt;test name=&quot;LoginErrorMessage_AN190&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.LoginErrorMessage_AN190&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginErrorMessage_AN190 --&gt;
+  &lt;test name=&quot;MailBodyMissing_ForgotPassword_SNo_28&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MailBodyMissing_ForgotPassword_SNo_28 --&gt;
+  &lt;test name=&quot;UserNameTapping_SNo_32&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.UserNameTapping_SNo_32&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UserNameTapping_SNo_32 --&gt;
+  &lt;test name=&quot;UniqueCouponMultipleTime_SNo_39&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.UniqueCouponMultipleTime_SNo_39&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UniqueCouponMultipleTime_SNo_39 --&gt;
+  &lt;test name=&quot;SignInWithGoogle_SNo_30&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.SignInWithGoogle_SNo_30&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignInWithGoogle_SNo_30 --&gt;
+  &lt;test name=&quot;An_186&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AN_186&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- An_186 --&gt;
+  &lt;test name=&quot;ShoppingCartProductDelete&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ShoppingCartProductDelete&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ShoppingCartProductDelete --&gt;
+  &lt;test name=&quot;CheckoutError&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.CheckoutErrorOnCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckoutError --&gt;
+  &lt;test name=&quot;Coupon Issue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.CouponPromptIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Coupon Issue --&gt;
+  &lt;test name=&quot;Sorting Issue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.SortingIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sorting Issue --&gt;
+  &lt;test name=&quot;ReviewWithSpecial&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ReviewWithSpecialCharacters&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReviewWithSpecial --&gt;
+  &lt;test name=&quot;SimilarProductsIssue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.SimilarProductsIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SimilarProductsIssue --&gt;
+  &lt;test name=&quot;PlacedOrderIssue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.PlacedOrderIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PlacedOrderIssue --&gt;
+  &lt;test name=&quot;SubmitReview&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.SubmitReview&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubmitReview --&gt;
+  &lt;test name=&quot;HtcProductConnectionIssue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ProductConnectionIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HtcProductConnectionIssue --&gt;
+  &lt;test name=&quot;CheckoutErrorOnCart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.CheckoutErrorOnCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckoutErrorOnCart --&gt;
+  &lt;test name=&quot;OverFlowOptionIsMissing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.OverflowOptionIsMissing&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OverFlowOptionIsMissing --&gt;
+  &lt;test name=&quot;ApplicationCrashIssue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.ApplicationCrashIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ApplicationCrashIssue --&gt;
+  &lt;test name=&quot;AddressPageValidationIssue&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AddressPageValidationIssue&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddressPageValidationIssue --&gt;
+  &lt;test name=&quot;AlreadyHaveAnAccount_Login_SNo_38&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AlreadyHaveAnAccount_Login_SNo_38 --&gt;
+&lt;/suite&gt; &lt;!-- BugRegression-suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BugRegression-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AN_180 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AN_184 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AndroidPhoneSearch_AN203 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CallingTablet_AN197 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CartConnectionError_SNo_25 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EmailId_LableOnForgotPassword_SNo_27 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ForgotPassword_Sno_36 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ForgotPasswordScreen_SNo_26 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LocationShownOnDrawerScreen_Sno_35 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginErrorMessage_AN190 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MailBodyMissing_ForgotPassword_SNo_28 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UserNameTapping_SNo_32 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UniqueCouponMultipleTime_SNo_39 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignInWithGoogle_SNo_30 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">An_186 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ShoppingCartProductDelete (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckoutError (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Coupon Issue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sorting Issue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ReviewWithSpecial (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SimilarProductsIssue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PlacedOrderIssue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubmitReview (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HtcProductConnectionIssue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckoutErrorOnCart (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OverFlowOptionIsMissing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ApplicationCrashIssue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddressPageValidationIssue (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AlreadyHaveAnAccount_Login_SNo_38 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BugRegression-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BugRegression-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BugRegression-suite');
+function tableData_BugRegression-suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'executeTestCase')
+data.setCell(0, 2, 'BugRegressionSuite.SimilarProductsIssue')
+data.setCell(0, 3, 73172);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'executeTestCase')
+data.setCell(1, 2, 'BugRegressionSuite.SubmitReview')
+data.setCell(1, 3, 61773);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'executeTestCase')
+data.setCell(2, 2, 'BugRegressionSuite.ReviewWithSpecialCharacters')
+data.setCell(2, 3, 61213);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'similarProductSamsungIssue')
+data.setCell(3, 2, 'BugRegressionSuite.SimilarProductsIssue')
+data.setCell(3, 3, 60940);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'executeTestCase')
+data.setCell(4, 2, 'BugRegressionSuite.AddressPageValidationIssue')
+data.setCell(4, 3, 39736);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'executeTestCase')
+data.setCell(5, 2, 'BugRegressionSuite.PlacedOrderIssue')
+data.setCell(5, 3, 39243);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'executeTestCase')
+data.setCell(6, 2, 'BugRegressionSuite.CouponPromptIssue')
+data.setCell(6, 3, 34864);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'executeTestCase')
+data.setCell(7, 2, 'BugRegressionSuite.UniqueCouponMultipleTime_SNo_39')
+data.setCell(7, 3, 32013);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'executeTestCase')
+data.setCell(8, 2, 'BugRegressionSuite.CheckoutErrorOnCart')
+data.setCell(8, 3, 31477);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'executeTestCase')
+data.setCell(9, 2, 'BugRegressionSuite.ForgotPassword_Sno_36')
+data.setCell(9, 3, 31420);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'appCrashDuringReviewLogin')
+data.setCell(10, 2, 'BugRegressionSuite.ApplicationCrashIssue')
+data.setCell(10, 3, 30772);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'executeTestCase')
+data.setCell(11, 2, 'BugRegressionSuite.CheckoutErrorOnCart')
+data.setCell(11, 3, 29014);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'executeTestCase')
+data.setCell(12, 2, 'BugRegressionSuite.ShoppingCartProductDelete')
+data.setCell(12, 3, 28911);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'similarEurekaProductIssue')
+data.setCell(13, 2, 'BugRegressionSuite.SimilarProductsIssue')
+data.setCell(13, 3, 28717);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'executeTestCase')
+data.setCell(14, 2, 'BugRegressionSuite.AN_180')
+data.setCell(14, 3, 26640);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'executeTestCase')
+data.setCell(15, 2, 'BugRegressionSuite.AN_186')
+data.setCell(15, 3, 24820);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'executeTestCase')
+data.setCell(16, 2, 'BugRegressionSuite.SortingIssue')
+data.setCell(16, 3, 24329);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'executeTestCase')
+data.setCell(17, 2, 'BugRegressionSuite.ProductConnectionIssue')
+data.setCell(17, 3, 24075);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'executeTestCase')
+data.setCell(18, 2, 'BugRegressionSuite.ApplicationCrashIssue')
+data.setCell(18, 3, 22784);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'executeTestCase')
+data.setCell(19, 2, 'BugRegressionSuite.CartConnectionError_SNo_25')
+data.setCell(19, 3, 21872);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'executeTestCase')
+data.setCell(20, 2, 'BugRegressionSuite.SignInWithGoogle_SNo_30')
+data.setCell(20, 3, 20382);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'executeTestCase')
+data.setCell(21, 2, 'BugRegressionSuite.AndroidPhoneSearch_AN203')
+data.setCell(21, 3, 20329);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'executeTestCase')
+data.setCell(22, 2, 'BugRegressionSuite.CallingTablet_AN197')
+data.setCell(22, 3, 20154);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'executeTestCase')
+data.setCell(23, 2, 'BugRegressionSuite.UserNameTapping_SNo_32')
+data.setCell(23, 3, 18135);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'executeTestCase')
+data.setCell(24, 2, 'BugRegressionSuite.LoginErrorMessage_AN190')
+data.setCell(24, 3, 17458);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'executeTestCase')
+data.setCell(25, 2, 'BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35')
+data.setCell(25, 3, 17431);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'executeTestCase')
+data.setCell(26, 2, 'BugRegressionSuite.AN_184')
+data.setCell(26, 3, 16898);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'executeTestCase')
+data.setCell(27, 2, 'BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28')
+data.setCell(27, 3, 15960);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'executeTestCase')
+data.setCell(28, 2, 'BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38')
+data.setCell(28, 3, 11840);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'executeTestCase')
+data.setCell(29, 2, 'BugRegressionSuite.OverflowOptionIsMissing')
+data.setCell(29, 3, 11620);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'executeTestCase')
+data.setCell(30, 2, 'BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27')
+data.setCell(30, 3, 9966);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'executeTestCase')
+data.setCell(31, 2, 'BugRegressionSuite.ForgotPasswordScreen_SNo_26')
+data.setCell(31, 3, 9370);
+window.suiteTableData['BugRegression-suite']= { tableData: data, tableDiv: 'times-div-BugRegression-suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-BugRegression-suite">
+              </div> <!-- times-div-BugRegression-suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BugRegression-suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BugRegression-suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AN_180</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">42235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">68876 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AN_184</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">73335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">105410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">122308 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AndroidPhoneSearch_AN203</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">126252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">154468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">174797 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.CallingTablet_AN197</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">178694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">207959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">228113 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.CartConnectionError_SNo_25</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">232324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">260003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">281876 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">286017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">314500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">324466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ForgotPassword_Sno_36</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">328600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">359533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">390954 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ForgotPasswordScreen_SNo_26</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">394912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">423898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">433268 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">437107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">464865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">482296 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.LoginErrorMessage_AN190</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">486457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">514471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">531929 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">536254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">568267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">584227 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.UserNameTapping_SNo_32</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">587920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">622912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">641047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.UniqueCouponMultipleTime_SNo_39</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">645079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">677699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">709712 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.SignInWithGoogle_SNo_30</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">713679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">740416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">760798 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AN_186</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">764413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">792454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">817274 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ShoppingCartProductDelete</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">821384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">854018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">882929 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.CheckoutErrorOnCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">887259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">919377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">948391 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.CouponPromptIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">952628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">981931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1016795 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.SortingIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1020825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1052409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1076738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ReviewWithSpecialCharacters</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1080711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1108982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1170195 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.SimilarProductsIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1174605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1204875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1278047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1282334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">similarEurekaProductIssue</span>
+                <span class="method-start">1311332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1340049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1343952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">similarProductSamsungIssue</span>
+                <span class="method-start">1372336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1433276 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.PlacedOrderIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1437798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1467661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1506904 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.SubmitReview</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1511263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1541302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1603075 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ProductConnectionIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1606963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1637279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1661354 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.CheckoutErrorOnCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1665210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1693974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1725452 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.OverflowOptionIsMissing</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1729705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1759440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1771060 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.ApplicationCrashIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1775186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">appCrashDuringReviewLogin</span>
+                <span class="method-start">1804003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1834775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1839117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1869327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1892111 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AddressPageValidationIssue</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1896424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">1927171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">1966907 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDrivers</span>
+                <span class="method-start">1971114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">executeTestCase</span>
+                <span class="method-start">2003398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitTest</span>
+                <span class="method-start">2015238 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

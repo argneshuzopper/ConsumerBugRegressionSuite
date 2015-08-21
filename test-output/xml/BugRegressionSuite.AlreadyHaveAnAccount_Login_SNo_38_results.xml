@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AlreadyHaveAnAccount_Login_SNo_38"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.840">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="11.840" classname="BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38" />
+      
+</testsuite>

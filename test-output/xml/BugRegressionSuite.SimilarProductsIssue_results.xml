@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimilarProductsIssue"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="162.829">
+  <properties />
+  
+  
+            <testcase name="similarProductSamsungIssue" time="60.940" classname="BugRegressionSuite.SimilarProductsIssue" />
+                <testcase name="executeTestCase" time="73.172" classname="BugRegressionSuite.SimilarProductsIssue" />
+                <testcase name="similarEurekaProductIssue" time="28.717" classname="BugRegressionSuite.SimilarProductsIssue" />
+      
+</testsuite>

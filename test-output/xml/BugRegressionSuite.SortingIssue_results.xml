@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sorting Issue"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.329">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="24.329" classname="BugRegressionSuite.SortingIssue" />
+      
+</testsuite>

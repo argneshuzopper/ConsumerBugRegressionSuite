@@ -1,0 +1,192 @@
+<suite name="BugRegression-suite">
+ <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners> 
+  
+ <test name="AN_180">
+ <classes>
+ <class name="BugRegressionSuite.AN_180" />
+ </classes>
+ </test>
+ 
+ <test name="AN_184">
+ <classes>
+ <class name="BugRegressionSuite.AN_184" />
+ </classes>
+ </test>
+
+  <test name="AndroidPhoneSearch_AN203">
+ <classes>
+ <class name="BugRegressionSuite.AndroidPhoneSearch_AN203" />
+ </classes>
+ </test>
+ 
+ <test name="CallingTablet_AN197">
+ <classes>
+ <class name="BugRegressionSuite.CallingTablet_AN197" />
+ </classes>
+ </test>
+ 
+ <test name="CartConnectionError_SNo_25">
+ <classes>
+ <class name="BugRegressionSuite.CartConnectionError_SNo_25" />
+ </classes>
+ </test>
+ 
+ <test name="EmailId_LableOnForgotPassword_SNo_27">
+ <classes>
+ <class name="BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27" />
+ </classes>
+ </test>
+ 
+ <test name="ForgotPassword_Sno_36">
+ <classes>
+ <class name="BugRegressionSuite.ForgotPassword_Sno_36" />
+ </classes>
+ </test>
+ 
+ <test name="ForgotPasswordScreen_SNo_26">
+ <classes>
+ <class name="BugRegressionSuite.ForgotPasswordScreen_SNo_26" />
+ </classes>
+ </test>
+ 
+ <test name="LocationShownOnDrawerScreen_Sno_35">
+ <classes>
+ <class name="BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35" />
+ </classes>
+ </test>
+ 
+ <test name="LoginErrorMessage_AN190">
+ <classes>
+ <class name="BugRegressionSuite.LoginErrorMessage_AN190" />
+ </classes>
+ </test>
+ 
+ <test name="MailBodyMissing_ForgotPassword_SNo_28">
+ <classes>
+ <class name="BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28" />
+ </classes>
+ </test>
+ 
+ 
+ 
+ <test name="UserNameTapping_SNo_32">
+ <classes>
+ <class name="BugRegressionSuite.UserNameTapping_SNo_32" />
+ </classes>
+ </test>
+ 
+ <test name="UniqueCouponMultipleTime_SNo_39">
+ <classes>
+ <class name="BugRegressionSuite.UniqueCouponMultipleTime_SNo_39" />
+ </classes>
+ </test>
+ 
+ <test name="SignInWithGoogle_SNo_30">
+ <classes>
+ <class name="BugRegressionSuite.SignInWithGoogle_SNo_30" />
+ </classes>
+ </test>
+   
+  
+ <test name="An_186">
+ <classes>
+ <class name="BugRegressionSuite.AN_186" />
+ </classes>
+ </test>
+  
+  
+<test name="ShoppingCartProductDelete">
+ <classes>
+ <class name="BugRegressionSuite.ShoppingCartProductDelete" />
+ </classes>
+ </test>
+ 
+ <test name="CheckoutError">
+ <classes>
+ <class name="BugRegressionSuite.CheckoutErrorOnCart" />
+ </classes>
+ </test>
+ 
+  <test name="Coupon Issue">
+ <classes>
+ <class name="BugRegressionSuite.CouponPromptIssue" />
+ </classes>
+ </test>
+ 
+  
+  <test name="Sorting Issue">
+ <classes>
+ <class name="BugRegressionSuite.SortingIssue" />
+ </classes>
+ </test>
+ 
+  
+ <test name="ReviewWithSpecial"> 
+ <classes>
+ <class name="BugRegressionSuite.ReviewWithSpecialCharacters" />
+ </classes>
+ </test> 
+ 
+ 
+ 
+<test name="SimilarProductsIssue">
+ <classes>
+ <class name="BugRegressionSuite.SimilarProductsIssue" />
+ </classes>
+ </test>
+ 
+<test name="PlacedOrderIssue">
+ <classes>
+ <class name="BugRegressionSuite.PlacedOrderIssue" />
+ </classes>
+ </test>
+
+ 
+ <test name="SubmitReview">
+ <classes>
+ <class name="BugRegressionSuite.SubmitReview" />
+ </classes>
+ </test>
+ 
+<test name="HtcProductConnectionIssue">
+ <classes>
+ <class name="BugRegressionSuite.ProductConnectionIssue" />
+ </classes>
+ </test>
+ 
+ 
+<test name="CheckoutErrorOnCart">
+ <classes>
+ <class name="BugRegressionSuite.CheckoutErrorOnCart" />
+ </classes>
+ </test>
+ 
+<test name="OverFlowOptionIsMissing">
+ <classes>
+ <class name="BugRegressionSuite.OverflowOptionIsMissing" />
+ </classes>
+ </test> 
+ 
+<test name="ApplicationCrashIssue">
+ <classes>
+ <class name="BugRegressionSuite.ApplicationCrashIssue" />
+ </classes>
+ </test> 
+ 
+<test name="AddressPageValidationIssue">
+ <classes>
+ <class name="BugRegressionSuite.AddressPageValidationIssue" />
+ </classes>
+ </test> 
+ 
+<test name="AlreadyHaveAnAccount_Login_SNo_38">
+ <classes>
+ <class name="BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38" />
+ </classes>
+ </test>
+
+
+</suite>  

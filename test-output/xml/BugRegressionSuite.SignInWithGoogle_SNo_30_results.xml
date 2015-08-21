@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SignInWithGoogle_SNo_30"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.382">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="20.382" classname="BugRegressionSuite.SignInWithGoogle_SNo_30" />
+      
+</testsuite>

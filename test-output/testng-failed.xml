@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BugRegression-suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="UniqueCouponMultipleTime_SNo_39(failed)">
+    <classes>
+      <class name="BugRegressionSuite.PlacedOrderIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.PlacedOrderIssue -->
+      <class name="BugRegressionSuite.ForgotPassword_Sno_36">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ForgotPassword_Sno_36 -->
+      <class name="BugRegressionSuite.SortingIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.SortingIssue -->
+      <class name="BugRegressionSuite.OverflowOptionIsMissing">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.OverflowOptionIsMissing -->
+      <class name="BugRegressionSuite.ForgotPasswordScreen_SNo_26">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ForgotPasswordScreen_SNo_26 -->
+      <class name="BugRegressionSuite.SignInWithGoogle_SNo_30">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.SignInWithGoogle_SNo_30 -->
+      <class name="BugRegressionSuite.SubmitReview">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.SubmitReview -->
+      <class name="BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35 -->
+      <class name="BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38 -->
+      <class name="BugRegressionSuite.AN_184">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AN_184 -->
+      <class name="BugRegressionSuite.SimilarProductsIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.SimilarProductsIssue -->
+      <class name="BugRegressionSuite.LoginErrorMessage_AN190">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.LoginErrorMessage_AN190 -->
+      <class name="BugRegressionSuite.ProductConnectionIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ProductConnectionIssue -->
+      <class name="BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28 -->
+      <class name="BugRegressionSuite.ReviewWithSpecialCharacters">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ReviewWithSpecialCharacters -->
+      <class name="BugRegressionSuite.UserNameTapping_SNo_32">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.UserNameTapping_SNo_32 -->
+      <class name="BugRegressionSuite.UniqueCouponMultipleTime_SNo_39">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="executeTestCase"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.UniqueCouponMultipleTime_SNo_39 -->
+      <class name="BugRegressionSuite.AddressPageValidationIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AddressPageValidationIssue -->
+      <class name="BugRegressionSuite.AndroidPhoneSearch_AN203">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AndroidPhoneSearch_AN203 -->
+      <class name="BugRegressionSuite.AN_186">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AN_186 -->
+      <class name="BugRegressionSuite.ShoppingCartProductDelete">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ShoppingCartProductDelete -->
+      <class name="BugRegressionSuite.CouponPromptIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.CouponPromptIssue -->
+      <class name="BugRegressionSuite.AN_180">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.AN_180 -->
+      <class name="BugRegressionSuite.CartConnectionError_SNo_25">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.CartConnectionError_SNo_25 -->
+      <class name="BugRegressionSuite.ApplicationCrashIssue">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.ApplicationCrashIssue -->
+      <class name="BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27 -->
+      <class name="BugRegressionSuite.CheckoutErrorOnCart">
+        <methods>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.CheckoutErrorOnCart -->
+      <class name="BugRegressionSuite.CallingTablet_AN197">
+        <methods>
+          <include name="quitTest"/>
+          <include name="initializeDrivers"/>
+        </methods>
+      </class> <!-- BugRegressionSuite.CallingTablet_AN197 -->
+    </classes>
+  </test> <!-- UniqueCouponMultipleTime_SNo_39(failed) -->
+</suite> <!-- Failed suite [BugRegression-suite] -->

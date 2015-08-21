@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApplicationCrashIssue"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="53.556">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="22.784" classname="BugRegressionSuite.ApplicationCrashIssue" />
+                <testcase name="appCrashDuringReviewLogin" time="30.772" classname="BugRegressionSuite.ApplicationCrashIssue" />
+      
+</testsuite>

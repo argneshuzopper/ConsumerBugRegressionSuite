@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AN_180"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.640">
+  <properties />
+  
+  
+            <testcase name="executeTestCase" time="26.640" classname="BugRegressionSuite.AN_180" />
+      
+</testsuite>

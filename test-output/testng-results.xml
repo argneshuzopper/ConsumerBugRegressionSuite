@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="32" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BugRegression-suite" duration-ms="2019136" started-at="2015-08-11T04:50:56Z" finished-at="2015-08-11T05:24:35Z">
+    <groups>
+    </groups>
+    <test name="AN_180" duration-ms="73302" started-at="2015-08-11T04:50:56Z" finished-at="2015-08-11T04:52:09Z">
+      <class name="BugRegressionSuite.AN_180">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AN_180@15bc391f]" name="initializeDrivers" is-config="true" duration-ms="42235" started-at="2015-08-11T10:20:56Z" finished-at="2015-08-11T10:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AN_180@15bc391f]" name="executeTestCase" duration-ms="26640" started-at="2015-08-11T10:21:38Z" finished-at="2015-08-11T10:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AN_180@15bc391f]" name="quitTest" is-config="true" duration-ms="4411" started-at="2015-08-11T10:22:04Z" finished-at="2015-08-11T10:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AN_180 -->
+    </test> <!-- AN_180 -->
+    <test name="AN_184" duration-ms="52911" started-at="2015-08-11T04:52:09Z" finished-at="2015-08-11T04:53:02Z">
+      <class name="BugRegressionSuite.AN_184">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AN_184@3b54fd7a]" name="initializeDrivers" is-config="true" duration-ms="32074" started-at="2015-08-11T10:22:09Z" finished-at="2015-08-11T10:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AN_184@3b54fd7a]" name="executeTestCase" duration-ms="16898" started-at="2015-08-11T10:22:41Z" finished-at="2015-08-11T10:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AN_184@3b54fd7a]" name="quitTest" is-config="true" duration-ms="3938" started-at="2015-08-11T10:22:58Z" finished-at="2015-08-11T10:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AN_184 -->
+    </test> <!-- AN_184 -->
+    <test name="AndroidPhoneSearch_AN203" duration-ms="52433" started-at="2015-08-11T04:53:02Z" finished-at="2015-08-11T04:53:54Z">
+      <class name="BugRegressionSuite.AndroidPhoneSearch_AN203">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AndroidPhoneSearch_AN203@60e3907d]" name="initializeDrivers" is-config="true" duration-ms="28216" started-at="2015-08-11T10:23:02Z" finished-at="2015-08-11T10:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AndroidPhoneSearch_AN203@60e3907d]" name="executeTestCase" duration-ms="20329" started-at="2015-08-11T10:23:30Z" finished-at="2015-08-11T10:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AndroidPhoneSearch_AN203@60e3907d]" name="quitTest" is-config="true" duration-ms="3888" started-at="2015-08-11T10:23:50Z" finished-at="2015-08-11T10:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AndroidPhoneSearch_AN203 -->
+    </test> <!-- AndroidPhoneSearch_AN203 -->
+    <test name="CallingTablet_AN197" duration-ms="53567" started-at="2015-08-11T04:53:54Z" finished-at="2015-08-11T04:54:48Z">
+      <class name="BugRegressionSuite.CallingTablet_AN197">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.CallingTablet_AN197@3f271f41]" name="initializeDrivers" is-config="true" duration-ms="29265" started-at="2015-08-11T10:23:54Z" finished-at="2015-08-11T10:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.CallingTablet_AN197@3f271f41]" name="executeTestCase" duration-ms="20154" started-at="2015-08-11T10:24:23Z" finished-at="2015-08-11T10:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.CallingTablet_AN197@3f271f41]" name="quitTest" is-config="true" duration-ms="4146" started-at="2015-08-11T10:24:44Z" finished-at="2015-08-11T10:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.CallingTablet_AN197 -->
+    </test> <!-- CallingTablet_AN197 -->
+    <test name="CartConnectionError_SNo_25" duration-ms="53684" started-at="2015-08-11T04:54:48Z" finished-at="2015-08-11T04:55:42Z">
+      <class name="BugRegressionSuite.CartConnectionError_SNo_25">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.CartConnectionError_SNo_25@21960050]" name="initializeDrivers" is-config="true" duration-ms="27679" started-at="2015-08-11T10:24:48Z" finished-at="2015-08-11T10:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.CartConnectionError_SNo_25@21960050]" name="executeTestCase" duration-ms="21872" started-at="2015-08-11T10:25:16Z" finished-at="2015-08-11T10:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.CartConnectionError_SNo_25@21960050]" name="quitTest" is-config="true" duration-ms="4131" started-at="2015-08-11T10:25:37Z" finished-at="2015-08-11T10:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.CartConnectionError_SNo_25 -->
+    </test> <!-- CartConnectionError_SNo_25 -->
+    <test name="EmailId_LableOnForgotPassword_SNo_27" duration-ms="42569" started-at="2015-08-11T04:55:42Z" finished-at="2015-08-11T04:56:24Z">
+      <class name="BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27@6de120da]" name="initializeDrivers" is-config="true" duration-ms="28483" started-at="2015-08-11T10:25:42Z" finished-at="2015-08-11T10:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27@6de120da]" name="executeTestCase" duration-ms="9966" started-at="2015-08-11T10:26:10Z" finished-at="2015-08-11T10:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27@6de120da]" name="quitTest" is-config="true" duration-ms="4118" started-at="2015-08-11T10:26:20Z" finished-at="2015-08-11T10:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.EmailId_LableOnForgotPassword_SNo_27 -->
+    </test> <!-- EmailId_LableOnForgotPassword_SNo_27 -->
+    <test name="ForgotPassword_Sno_36" duration-ms="66295" started-at="2015-08-11T04:56:24Z" finished-at="2015-08-11T04:57:30Z">
+      <class name="BugRegressionSuite.ForgotPassword_Sno_36">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ForgotPassword_Sno_36@5b99f6e4]" name="initializeDrivers" is-config="true" duration-ms="30933" started-at="2015-08-11T10:26:24Z" finished-at="2015-08-11T10:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ForgotPassword_Sno_36@5b99f6e4]" name="executeTestCase" duration-ms="31420" started-at="2015-08-11T10:26:55Z" finished-at="2015-08-11T10:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ForgotPassword_Sno_36@5b99f6e4]" name="quitTest" is-config="true" duration-ms="3940" started-at="2015-08-11T10:27:26Z" finished-at="2015-08-11T10:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ForgotPassword_Sno_36 -->
+    </test> <!-- ForgotPassword_Sno_36 -->
+    <test name="ForgotPasswordScreen_SNo_26" duration-ms="42191" started-at="2015-08-11T04:57:30Z" finished-at="2015-08-11T04:58:13Z">
+      <class name="BugRegressionSuite.ForgotPasswordScreen_SNo_26">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ForgotPasswordScreen_SNo_26@5f9dfa2f]" name="initializeDrivers" is-config="true" duration-ms="28986" started-at="2015-08-11T10:27:30Z" finished-at="2015-08-11T10:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ForgotPasswordScreen_SNo_26@5f9dfa2f]" name="executeTestCase" duration-ms="9370" started-at="2015-08-11T10:27:59Z" finished-at="2015-08-11T10:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ForgotPasswordScreen_SNo_26@5f9dfa2f]" name="quitTest" is-config="true" duration-ms="3834" started-at="2015-08-11T10:28:09Z" finished-at="2015-08-11T10:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ForgotPasswordScreen_SNo_26 -->
+    </test> <!-- ForgotPasswordScreen_SNo_26 -->
+    <test name="LocationShownOnDrawerScreen_Sno_35" duration-ms="49184" started-at="2015-08-11T04:58:13Z" finished-at="2015-08-11T04:59:02Z">
+      <class name="BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35@4f7bb842]" name="initializeDrivers" is-config="true" duration-ms="27758" started-at="2015-08-11T10:28:13Z" finished-at="2015-08-11T10:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35@4f7bb842]" name="executeTestCase" duration-ms="17431" started-at="2015-08-11T10:28:40Z" finished-at="2015-08-11T10:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35@4f7bb842]" name="quitTest" is-config="true" duration-ms="3995" started-at="2015-08-11T10:28:58Z" finished-at="2015-08-11T10:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.LocationShownOnDrawerScreen_Sno_35 -->
+    </test> <!-- LocationShownOnDrawerScreen_Sno_35 -->
+    <test name="LoginErrorMessage_AN190" duration-ms="49787" started-at="2015-08-11T04:59:02Z" finished-at="2015-08-11T04:59:52Z">
+      <class name="BugRegressionSuite.LoginErrorMessage_AN190">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.LoginErrorMessage_AN190@565ea8f9]" name="initializeDrivers" is-config="true" duration-ms="28014" started-at="2015-08-11T10:29:02Z" finished-at="2015-08-11T10:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.LoginErrorMessage_AN190@565ea8f9]" name="executeTestCase" duration-ms="17458" started-at="2015-08-11T10:29:30Z" finished-at="2015-08-11T10:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.LoginErrorMessage_AN190@565ea8f9]" name="quitTest" is-config="true" duration-ms="4313" started-at="2015-08-11T10:29:47Z" finished-at="2015-08-11T10:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.LoginErrorMessage_AN190 -->
+    </test> <!-- LoginErrorMessage_AN190 -->
+    <test name="MailBodyMissing_ForgotPassword_SNo_28" duration-ms="51634" started-at="2015-08-11T04:59:52Z" finished-at="2015-08-11T05:00:43Z">
+      <class name="BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28@885e019]" name="initializeDrivers" is-config="true" duration-ms="32012" started-at="2015-08-11T10:29:52Z" finished-at="2015-08-11T10:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28@885e019]" name="executeTestCase" duration-ms="15960" started-at="2015-08-11T10:30:24Z" finished-at="2015-08-11T10:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28@885e019]" name="quitTest" is-config="true" duration-ms="3660" started-at="2015-08-11T10:30:40Z" finished-at="2015-08-11T10:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.MailBodyMissing_ForgotPassword_SNo_28 -->
+    </test> <!-- MailBodyMissing_ForgotPassword_SNo_28 -->
+    <test name="UserNameTapping_SNo_32" duration-ms="57142" started-at="2015-08-11T05:00:43Z" finished-at="2015-08-11T05:01:41Z">
+      <class name="BugRegressionSuite.UserNameTapping_SNo_32">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.UserNameTapping_SNo_32@6a269856]" name="initializeDrivers" is-config="true" duration-ms="34992" started-at="2015-08-11T10:30:43Z" finished-at="2015-08-11T10:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.UserNameTapping_SNo_32@6a269856]" name="executeTestCase" duration-ms="18135" started-at="2015-08-11T10:31:18Z" finished-at="2015-08-11T10:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.UserNameTapping_SNo_32@6a269856]" name="quitTest" is-config="true" duration-ms="4014" started-at="2015-08-11T10:31:37Z" finished-at="2015-08-11T10:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.UserNameTapping_SNo_32 -->
+    </test> <!-- UserNameTapping_SNo_32 -->
+    <test name="UniqueCouponMultipleTime_SNo_39" duration-ms="68583" started-at="2015-08-11T05:01:41Z" finished-at="2015-08-11T05:02:49Z">
+      <class name="BugRegressionSuite.UniqueCouponMultipleTime_SNo_39">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.UniqueCouponMultipleTime_SNo_39@7bbca7ab]" name="initializeDrivers" is-config="true" duration-ms="32620" started-at="2015-08-11T10:31:41Z" finished-at="2015-08-11T10:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="FAIL" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.UniqueCouponMultipleTime_SNo_39@7bbca7ab]" name="executeTestCase" duration-ms="32013" started-at="2015-08-11T10:32:13Z" finished-at="2015-08-11T10:32:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sorry, This coupon code is not valid] but found [Have other coupon? Reapply to avail the offer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sorry, This coupon code is not valid] but found [Have other coupon? Reapply to avail the offer]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at BugRegressionSuite.UniqueCouponMultipleTime_SNo_39.executeTestCase(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.UniqueCouponMultipleTime_SNo_39@7bbca7ab]" name="quitTest" is-config="true" duration-ms="3950" started-at="2015-08-11T10:32:45Z" finished-at="2015-08-11T10:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.UniqueCouponMultipleTime_SNo_39 -->
+    </test> <!-- UniqueCouponMultipleTime_SNo_39 -->
+    <test name="SignInWithGoogle_SNo_30" duration-ms="50726" started-at="2015-08-11T05:02:49Z" finished-at="2015-08-11T05:03:40Z">
+      <class name="BugRegressionSuite.SignInWithGoogle_SNo_30">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SignInWithGoogle_SNo_30@5a578998]" name="initializeDrivers" is-config="true" duration-ms="26737" started-at="2015-08-11T10:32:49Z" finished-at="2015-08-11T10:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.SignInWithGoogle_SNo_30@5a578998]" name="executeTestCase" duration-ms="20382" started-at="2015-08-11T10:33:16Z" finished-at="2015-08-11T10:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SignInWithGoogle_SNo_30@5a578998]" name="quitTest" is-config="true" duration-ms="3607" started-at="2015-08-11T10:33:36Z" finished-at="2015-08-11T10:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.SignInWithGoogle_SNo_30 -->
+    </test> <!-- SignInWithGoogle_SNo_30 -->
+    <test name="An_186" duration-ms="56965" started-at="2015-08-11T05:03:40Z" finished-at="2015-08-11T05:04:37Z">
+      <class name="BugRegressionSuite.AN_186">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AN_186@c666ef0]" name="initializeDrivers" is-config="true" duration-ms="28041" started-at="2015-08-11T10:33:40Z" finished-at="2015-08-11T10:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AN_186@c666ef0]" name="executeTestCase" duration-ms="24820" started-at="2015-08-11T10:34:08Z" finished-at="2015-08-11T10:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AN_186@c666ef0]" name="quitTest" is-config="true" duration-ms="4103" started-at="2015-08-11T10:34:33Z" finished-at="2015-08-11T10:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AN_186 -->
+    </test> <!-- An_186 -->
+    <test name="ShoppingCartProductDelete" duration-ms="65870" started-at="2015-08-11T05:04:37Z" finished-at="2015-08-11T05:05:43Z">
+      <class name="BugRegressionSuite.ShoppingCartProductDelete">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ShoppingCartProductDelete@133c118a]" name="initializeDrivers" is-config="true" duration-ms="32634" started-at="2015-08-11T10:34:37Z" finished-at="2015-08-11T10:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ShoppingCartProductDelete@133c118a]" name="executeTestCase" duration-ms="28911" started-at="2015-08-11T10:35:10Z" finished-at="2015-08-11T10:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ShoppingCartProductDelete@133c118a]" name="quitTest" is-config="true" duration-ms="4324" started-at="2015-08-11T10:35:38Z" finished-at="2015-08-11T10:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ShoppingCartProductDelete -->
+    </test> <!-- ShoppingCartProductDelete -->
+    <test name="CheckoutError" duration-ms="65362" started-at="2015-08-11T05:05:43Z" finished-at="2015-08-11T05:06:48Z">
+      <class name="BugRegressionSuite.CheckoutErrorOnCart">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@2102ff12]" name="initializeDrivers" is-config="true" duration-ms="32118" started-at="2015-08-11T10:35:43Z" finished-at="2015-08-11T10:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@2102ff12]" name="executeTestCase" duration-ms="29014" started-at="2015-08-11T10:36:15Z" finished-at="2015-08-11T10:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@2102ff12]" name="quitTest" is-config="true" duration-ms="4230" started-at="2015-08-11T10:36:44Z" finished-at="2015-08-11T10:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.CheckoutErrorOnCart -->
+    </test> <!-- CheckoutError -->
+    <test name="Coupon Issue" duration-ms="68192" started-at="2015-08-11T05:06:48Z" finished-at="2015-08-11T05:07:56Z">
+      <class name="BugRegressionSuite.CouponPromptIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.CouponPromptIssue@6ceac619]" name="initializeDrivers" is-config="true" duration-ms="29303" started-at="2015-08-11T10:36:48Z" finished-at="2015-08-11T10:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.CouponPromptIssue@6ceac619]" name="executeTestCase" duration-ms="34864" started-at="2015-08-11T10:37:17Z" finished-at="2015-08-11T10:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.CouponPromptIssue@6ceac619]" name="quitTest" is-config="true" duration-ms="4024" started-at="2015-08-11T10:37:52Z" finished-at="2015-08-11T10:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.CouponPromptIssue -->
+    </test> <!-- Coupon Issue -->
+    <test name="Sorting Issue" duration-ms="59872" started-at="2015-08-11T05:07:56Z" finished-at="2015-08-11T05:08:56Z">
+      <class name="BugRegressionSuite.SortingIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SortingIssue@1995bf19]" name="initializeDrivers" is-config="true" duration-ms="31584" started-at="2015-08-11T10:37:56Z" finished-at="2015-08-11T10:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.SortingIssue@1995bf19]" name="executeTestCase" duration-ms="24329" started-at="2015-08-11T10:38:28Z" finished-at="2015-08-11T10:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SortingIssue@1995bf19]" name="quitTest" is-config="true" duration-ms="3958" started-at="2015-08-11T10:38:52Z" finished-at="2015-08-11T10:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.SortingIssue -->
+    </test> <!-- Sorting Issue -->
+    <test name="ReviewWithSpecial" duration-ms="93600" started-at="2015-08-11T05:08:56Z" finished-at="2015-08-11T05:10:30Z">
+      <class name="BugRegressionSuite.ReviewWithSpecialCharacters">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ReviewWithSpecialCharacters@790a3c73]" name="initializeDrivers" is-config="true" duration-ms="28271" started-at="2015-08-11T10:38:56Z" finished-at="2015-08-11T10:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ReviewWithSpecialCharacters@790a3c73]" name="executeTestCase" duration-ms="61213" started-at="2015-08-11T10:39:25Z" finished-at="2015-08-11T10:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ReviewWithSpecialCharacters@790a3c73]" name="quitTest" is-config="true" duration-ms="4116" started-at="2015-08-11T10:40:26Z" finished-at="2015-08-11T10:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ReviewWithSpecialCharacters -->
+    </test> <!-- ReviewWithSpecial -->
+    <test name="SimilarProductsIssue" duration-ms="263169" started-at="2015-08-11T05:10:30Z" finished-at="2015-08-11T05:14:53Z">
+      <class name="BugRegressionSuite.SimilarProductsIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="initializeDrivers" is-config="true" duration-ms="30270" started-at="2015-08-11T10:40:30Z" finished-at="2015-08-11T10:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="executeTestCase" duration-ms="73172" started-at="2015-08-11T10:41:00Z" finished-at="2015-08-11T10:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="quitTest" is-config="true" duration-ms="4286" started-at="2015-08-11T10:42:14Z" finished-at="2015-08-11T10:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="initializeDrivers" is-config="true" duration-ms="28998" started-at="2015-08-11T10:42:18Z" finished-at="2015-08-11T10:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="similarEurekaProductIssue()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="similarEurekaProductIssue" duration-ms="28717" started-at="2015-08-11T10:42:47Z" finished-at="2015-08-11T10:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- similarEurekaProductIssue -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="quitTest" is-config="true" duration-ms="3902" started-at="2015-08-11T10:43:16Z" finished-at="2015-08-11T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="initializeDrivers" is-config="true" duration-ms="28384" started-at="2015-08-11T10:43:19Z" finished-at="2015-08-11T10:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="similarProductSamsungIssue()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="similarProductSamsungIssue" duration-ms="60940" started-at="2015-08-11T10:43:48Z" finished-at="2015-08-11T10:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- similarProductSamsungIssue -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SimilarProductsIssue@341b8757]" name="quitTest" is-config="true" duration-ms="4498" started-at="2015-08-11T10:44:49Z" finished-at="2015-08-11T10:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.SimilarProductsIssue -->
+    </test> <!-- SimilarProductsIssue -->
+    <test name="PlacedOrderIssue" duration-ms="73456" started-at="2015-08-11T05:14:53Z" finished-at="2015-08-11T05:16:07Z">
+      <class name="BugRegressionSuite.PlacedOrderIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.PlacedOrderIssue@6d7300f9]" name="initializeDrivers" is-config="true" duration-ms="29863" started-at="2015-08-11T10:44:53Z" finished-at="2015-08-11T10:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.PlacedOrderIssue@6d7300f9]" name="executeTestCase" duration-ms="39243" started-at="2015-08-11T10:45:23Z" finished-at="2015-08-11T10:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.PlacedOrderIssue@6d7300f9]" name="quitTest" is-config="true" duration-ms="4349" started-at="2015-08-11T10:46:02Z" finished-at="2015-08-11T10:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.PlacedOrderIssue -->
+    </test> <!-- PlacedOrderIssue -->
+    <test name="SubmitReview" duration-ms="95684" started-at="2015-08-11T05:16:07Z" finished-at="2015-08-11T05:17:42Z">
+      <class name="BugRegressionSuite.SubmitReview">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.SubmitReview@39614c6]" name="initializeDrivers" is-config="true" duration-ms="30039" started-at="2015-08-11T10:46:07Z" finished-at="2015-08-11T10:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.SubmitReview@39614c6]" name="executeTestCase" duration-ms="61773" started-at="2015-08-11T10:46:37Z" finished-at="2015-08-11T10:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.SubmitReview@39614c6]" name="quitTest" is-config="true" duration-ms="3871" started-at="2015-08-11T10:47:39Z" finished-at="2015-08-11T10:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.SubmitReview -->
+    </test> <!-- SubmitReview -->
+    <test name="HtcProductConnectionIssue" duration-ms="58221" started-at="2015-08-11T05:17:42Z" finished-at="2015-08-11T05:18:41Z">
+      <class name="BugRegressionSuite.ProductConnectionIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ProductConnectionIssue@52308be6]" name="initializeDrivers" is-config="true" duration-ms="30316" started-at="2015-08-11T10:47:42Z" finished-at="2015-08-11T10:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ProductConnectionIssue@52308be6]" name="executeTestCase" duration-ms="24075" started-at="2015-08-11T10:48:13Z" finished-at="2015-08-11T10:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ProductConnectionIssue@52308be6]" name="quitTest" is-config="true" duration-ms="3830" started-at="2015-08-11T10:48:37Z" finished-at="2015-08-11T10:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ProductConnectionIssue -->
+    </test> <!-- HtcProductConnectionIssue -->
+    <test name="CheckoutErrorOnCart" duration-ms="64485" started-at="2015-08-11T05:18:41Z" finished-at="2015-08-11T05:19:45Z">
+      <class name="BugRegressionSuite.CheckoutErrorOnCart">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@e722d0c]" name="initializeDrivers" is-config="true" duration-ms="28764" started-at="2015-08-11T10:48:41Z" finished-at="2015-08-11T10:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@e722d0c]" name="executeTestCase" duration-ms="31477" started-at="2015-08-11T10:49:10Z" finished-at="2015-08-11T10:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.CheckoutErrorOnCart@e722d0c]" name="quitTest" is-config="true" duration-ms="4243" started-at="2015-08-11T10:49:41Z" finished-at="2015-08-11T10:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.CheckoutErrorOnCart -->
+    </test> <!-- CheckoutErrorOnCart -->
+    <test name="OverFlowOptionIsMissing" duration-ms="45476" started-at="2015-08-11T05:19:45Z" finished-at="2015-08-11T05:20:31Z">
+      <class name="BugRegressionSuite.OverflowOptionIsMissing">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.OverflowOptionIsMissing@2f3ca4d1]" name="initializeDrivers" is-config="true" duration-ms="29735" started-at="2015-08-11T10:49:45Z" finished-at="2015-08-11T10:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.OverflowOptionIsMissing@2f3ca4d1]" name="executeTestCase" duration-ms="11620" started-at="2015-08-11T10:50:15Z" finished-at="2015-08-11T10:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.OverflowOptionIsMissing@2f3ca4d1]" name="quitTest" is-config="true" duration-ms="4121" started-at="2015-08-11T10:50:27Z" finished-at="2015-08-11T10:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.OverflowOptionIsMissing -->
+    </test> <!-- OverFlowOptionIsMissing -->
+    <test name="ApplicationCrashIssue" duration-ms="121231" started-at="2015-08-11T05:20:31Z" finished-at="2015-08-11T05:22:32Z">
+      <class name="BugRegressionSuite.ApplicationCrashIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="initializeDrivers" is-config="true" duration-ms="28817" started-at="2015-08-11T10:50:31Z" finished-at="2015-08-11T10:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="appCrashDuringReviewLogin()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="appCrashDuringReviewLogin" duration-ms="30772" started-at="2015-08-11T10:51:00Z" finished-at="2015-08-11T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appCrashDuringReviewLogin -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="quitTest" is-config="true" duration-ms="4341" started-at="2015-08-11T10:51:30Z" finished-at="2015-08-11T10:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="initializeDrivers" is-config="true" duration-ms="30210" started-at="2015-08-11T10:51:35Z" finished-at="2015-08-11T10:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="executeTestCase" duration-ms="22784" started-at="2015-08-11T10:52:05Z" finished-at="2015-08-11T10:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.ApplicationCrashIssue@1ee4e327]" name="quitTest" is-config="true" duration-ms="4306" started-at="2015-08-11T10:52:28Z" finished-at="2015-08-11T10:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.ApplicationCrashIssue -->
+    </test> <!-- ApplicationCrashIssue -->
+    <test name="AddressPageValidationIssue" duration-ms="74674" started-at="2015-08-11T05:22:32Z" finished-at="2015-08-11T05:23:47Z">
+      <class name="BugRegressionSuite.AddressPageValidationIssue">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AddressPageValidationIssue@62565cf8]" name="initializeDrivers" is-config="true" duration-ms="30747" started-at="2015-08-11T10:52:32Z" finished-at="2015-08-11T10:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AddressPageValidationIssue@62565cf8]" name="executeTestCase" duration-ms="39736" started-at="2015-08-11T10:53:03Z" finished-at="2015-08-11T10:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AddressPageValidationIssue@62565cf8]" name="quitTest" is-config="true" duration-ms="4190" started-at="2015-08-11T10:53:42Z" finished-at="2015-08-11T10:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AddressPageValidationIssue -->
+    </test> <!-- AddressPageValidationIssue -->
+    <test name="AlreadyHaveAnAccount_Login_SNo_38" duration-ms="48009" started-at="2015-08-11T05:23:47Z" finished-at="2015-08-11T05:24:35Z">
+      <class name="BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38">
+        <test-method status="PASS" signature="initializeDrivers()[pri:0, instance:BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38@5e852b9]" name="initializeDrivers" is-config="true" duration-ms="32284" started-at="2015-08-11T10:53:47Z" finished-at="2015-08-11T10:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrivers -->
+        <test-method status="PASS" signature="executeTestCase()[pri:0, instance:BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38@5e852b9]" name="executeTestCase" duration-ms="11840" started-at="2015-08-11T10:54:19Z" finished-at="2015-08-11T10:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38@5e852b9]" name="quitTest" is-config="true" duration-ms="3885" started-at="2015-08-11T10:54:31Z" finished-at="2015-08-11T10:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- BugRegressionSuite.AlreadyHaveAnAccount_Login_SNo_38 -->
+    </test> <!-- AlreadyHaveAnAccount_Login_SNo_38 -->
+  </suite> <!-- BugRegression-suite -->
+</testng-results>
